@@ -67,9 +67,9 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="91.298521147541" y2="0" width="0" layer="20"/>
-<wire x1="91.298521147541" y1="0" x2="91.298521147541" y2="107.188" width="0" layer="20"/>
-<wire x1="91.298521147541" y1="107.188" x2="0" y2="107.188" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="91.58021131147542" y2="0" width="0" layer="20"/>
+<wire x1="91.58021131147542" y1="0" x2="91.58021131147542" y2="107.188" width="0" layer="20"/>
+<wire x1="91.58021131147542" y1="107.188" x2="0" y2="107.188" width="0" layer="20"/>
 <wire x1="0" y1="107.188" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
@@ -300,71 +300,71 @@ design rules under a new name.
 </pass>
 </autorouter>
 <elements>
-<element name="R2" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="21.4685" y="71.755" rot="R90" smashed="yes"/>
-<element name="D1" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/2" value="RED" x="20.1985" y="81.915" rot="R180" smashed="yes">
-<attribute name="CATEGORY" value="Opto-Electronic" x="20.1985" y="81.915" size="1.778" layer="27" display="off"/>
-<attribute name="COLOR" value="" x="20.1985" y="81.915" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="" x="20.1985" y="81.915" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="20.1985" y="81.915" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="20.1985" y="81.915" size="1.778" layer="27" display="off"/>
-<attribute name="OPERATING_TEMP" value="" x="20.1985" y="81.915" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="20.1985" y="81.915" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="20.1985" y="81.915" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="20.1985" y="81.915" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="LED" x="20.1985" y="81.915" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="20.1985" y="81.915" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="20.1985" y="81.915" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="LED_RED" x="20.1985" y="81.915" size="1.778" layer="27" display="off"/>
+<element name="R2" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="21.7502" y="71.755" rot="R90" smashed="yes"/>
+<element name="D1" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/2" value="RED" x="20.4802" y="81.915" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="20.4802" y="81.915" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="20.4802" y="81.915" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="20.4802" y="81.915" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="20.4802" y="81.915" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="20.4802" y="81.915" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="20.4802" y="81.915" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="20.4802" y="81.915" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="20.4802" y="81.915" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="20.4802" y="81.915" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="20.4802" y="81.915" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="20.4802" y="81.915" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="20.4802" y="81.915" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="20.4802" y="81.915" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R3" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="69.7285" y="69.215" rot="R90" smashed="yes"/>
-<element name="R1" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="62.1085" y="69.215" rot="R90" smashed="yes"/>
-<element name="S1" library="Tinkercad" package="SWITCH-MOMENTARY-PTH-6.5MM" package3d_urn="urn:adsk.eagle:package:32246662/3" value="SWITCH_MOMENTARY" x="59.5685" y="85.725" rot="R90" smashed="yes"/>
-<element name="S2" library="Tinkercad" package="SWITCH-MOMENTARY-PTH-6.5MM" package3d_urn="urn:adsk.eagle:package:32246662/3" value="SWITCH_MOMENTARY" x="67.1885" y="85.725" rot="R90" smashed="yes"/>
-<element name="R4" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="77.3485" y="69.215" rot="R90" smashed="yes"/>
-<element name="S3" library="Tinkercad" package="SWITCH-MOMENTARY-PTH-6.5MM" package3d_urn="urn:adsk.eagle:package:32246662/3" value="SWITCH_MOMENTARY" x="74.8085" y="85.725" rot="R90" smashed="yes"/>
-<element name="R5" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="84.9685" y="69.215" rot="R90" smashed="yes"/>
-<element name="S4" library="Tinkercad" package="SWITCH-MOMENTARY-PTH-6.5MM" package3d_urn="urn:adsk.eagle:package:32246662/3" value="SWITCH_MOMENTARY" x="82.4285" y="85.725" rot="R90" smashed="yes"/>
+<element name="R3" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="70.0102" y="69.215" rot="R90" smashed="yes"/>
+<element name="R1" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="62.3902" y="69.215" rot="R90" smashed="yes"/>
+<element name="S1" library="Tinkercad" package="SWITCH-MOMENTARY-PTH-6.5MM" package3d_urn="urn:adsk.eagle:package:32246662/3" value="SWITCH_MOMENTARY" x="59.8502" y="85.725" rot="R90" smashed="yes"/>
+<element name="S2" library="Tinkercad" package="SWITCH-MOMENTARY-PTH-6.5MM" package3d_urn="urn:adsk.eagle:package:32246662/3" value="SWITCH_MOMENTARY" x="67.4702" y="85.725" rot="R90" smashed="yes"/>
+<element name="R4" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="77.6302" y="69.215" rot="R90" smashed="yes"/>
+<element name="S3" library="Tinkercad" package="SWITCH-MOMENTARY-PTH-6.5MM" package3d_urn="urn:adsk.eagle:package:32246662/3" value="SWITCH_MOMENTARY" x="75.0902" y="85.725" rot="R90" smashed="yes"/>
+<element name="R5" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="85.2502" y="69.215" rot="R90" smashed="yes"/>
+<element name="S4" library="Tinkercad" package="SWITCH-MOMENTARY-PTH-6.5MM" package3d_urn="urn:adsk.eagle:package:32246662/3" value="SWITCH_MOMENTARY" x="82.7102" y="85.725" rot="R90" smashed="yes"/>
 <element name="U1" library="Tinkercad" package="ARDUINO-UNO-R3-SHIELD" package3d_urn="urn:adsk.eagle:package:32092383/4" value="ARDUINO-UNO-R3-SHIELD" x="47.885" y="29.845" rot="R270" smashed="yes"/>
-<element name="R6" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="54.4885" y="86.995" rot="R90" smashed="yes"/>
-<element name="D2" library="Tinkercad" package="LED-RGB-5MM" package3d_urn="urn:adsk.eagle:package:32251353/4" value="LED-RGBRCBG-PTH" x="50.6785" y="99.695" smashed="yes"/>
-<element name="R7" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="44.3285" y="86.995" rot="R90" smashed="yes"/>
-<element name="D3" library="Tinkercad" package="LED-RGB-5MM" package3d_urn="urn:adsk.eagle:package:32251353/4" value="LED-RGBRCBG-PTH" x="40.5185" y="99.695" smashed="yes"/>
-<element name="R8" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="34.1685" y="86.995" rot="R90" smashed="yes"/>
-<element name="D4" library="Tinkercad" package="LED-RGB-5MM" package3d_urn="urn:adsk.eagle:package:32251353/4" value="LED-RGBRCBG-PTH" x="30.3585" y="99.695" smashed="yes"/>
-<element name="R9" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="24.0085" y="86.995" rot="R90" smashed="yes"/>
-<element name="D5" library="Tinkercad" package="LED-RGB-5MM" package3d_urn="urn:adsk.eagle:package:32251353/4" value="LED-RGBRCBG-PTH" x="20.1985" y="99.695" smashed="yes"/>
+<element name="R6" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="54.7702" y="86.995" rot="R90" smashed="yes"/>
+<element name="D2" library="Tinkercad" package="LED-RGB-5MM" package3d_urn="urn:adsk.eagle:package:32251353/4" value="LED-RGBRCBG-PTH" x="50.9602" y="99.695" smashed="yes"/>
+<element name="R7" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="44.6102" y="86.995" rot="R90" smashed="yes"/>
+<element name="D3" library="Tinkercad" package="LED-RGB-5MM" package3d_urn="urn:adsk.eagle:package:32251353/4" value="LED-RGBRCBG-PTH" x="40.8002" y="99.695" smashed="yes"/>
+<element name="R8" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="34.4502" y="86.995" rot="R90" smashed="yes"/>
+<element name="D4" library="Tinkercad" package="LED-RGB-5MM" package3d_urn="urn:adsk.eagle:package:32251353/4" value="LED-RGBRCBG-PTH" x="30.6402" y="99.695" smashed="yes"/>
+<element name="R9" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="1k" x="24.2902" y="86.995" rot="R90" smashed="yes"/>
+<element name="D5" library="Tinkercad" package="LED-RGB-5MM" package3d_urn="urn:adsk.eagle:package:32251353/4" value="LED-RGBRCBG-PTH" x="20.4802" y="99.695" smashed="yes"/>
 </elements>
 <signals>
 <signal name="D1_A">
 <contactref element="D1" pad="1"/>
 <contactref element="R2" pad="2"/>
-<wire x1="21.4685" y1="81.915" x2="21.4685" y2="76.835" width="0" layer="19" extent="1-1"/>
+<wire x1="21.7502" y1="81.915" x2="21.7502" y2="76.835" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="U1_GND">
+<signal name="U1_D13">
 <contactref element="D1" pad="2"/>
+<contactref element="D2" pad="C"/>
+<contactref element="D3" pad="C"/>
+<contactref element="D4" pad="C"/>
+<contactref element="D5" pad="C"/>
+<contactref element="U1" pad="D13"/>
+<contactref element="R5" pad="1"/>
+<contactref element="R4" pad="1"/>
+<contactref element="R3" pad="1"/>
+<contactref element="R1" pad="1"/>
 <contactref element="U1" pad="GND@0"/>
 <contactref element="U1" pad="GND@1"/>
 <contactref element="U1" pad="GND@2"/>
-<contactref element="R1" pad="1"/>
-<contactref element="R3" pad="1"/>
-<contactref element="R4" pad="1"/>
-<contactref element="R5" pad="1"/>
-<contactref element="U1" pad="D13"/>
-<contactref element="D5" pad="C"/>
-<contactref element="D4" pad="C"/>
-<contactref element="D3" pad="C"/>
-<contactref element="D2" pad="C"/>
-<wire x1="36.455" y1="53.975" x2="38.995" y2="53.975" width="0" layer="19" extent="1-1"/>
-<wire x1="62.1085" y1="64.135" x2="38.995" y2="53.975" width="0" layer="19" extent="1-1"/>
-<wire x1="62.1085" y1="64.135" x2="69.7285" y2="64.135" width="0" layer="19" extent="1-1"/>
-<wire x1="69.7285" y1="64.135" x2="77.3485" y2="64.135" width="0" layer="19" extent="1-1"/>
-<wire x1="77.3485" y1="64.135" x2="84.9685" y2="64.135" width="0" layer="19" extent="1-1"/>
-<wire x1="18.9285" y1="81.915" x2="36.455" y2="53.975" width="0" layer="19" extent="1-1"/>
-<wire x1="18.9285" y1="81.915" x2="19.5635" y2="99.06" width="0" layer="19" extent="1-1"/>
-<wire x1="19.5635" y1="99.06" x2="29.7235" y2="99.06" width="0" layer="19" extent="1-1"/>
-<wire x1="29.7235" y1="99.06" x2="39.8835" y2="99.06" width="0" layer="19" extent="1-1"/>
-<wire x1="39.8835" y1="99.06" x2="50.0435" y2="99.06" width="0" layer="19" extent="1-1"/>
-<wire x1="50.425" y1="5.715" x2="38.995" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="38.995" y1="53.975" x2="36.455" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="38.995" y1="53.975" x2="62.3902" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="70.0102" y1="64.135" x2="62.3902" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="77.6302" y1="64.135" x2="70.0102" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="85.2502" y1="64.135" x2="77.6302" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="19.2102" y1="81.915" x2="36.455" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="19.2102" y1="81.915" x2="19.8452" y2="99.06" width="0" layer="19" extent="1-1"/>
+<wire x1="30.0052" y1="99.06" x2="19.8452" y2="99.06" width="0" layer="19" extent="1-1"/>
+<wire x1="40.1652" y1="99.06" x2="30.0052" y2="99.06" width="0" layer="19" extent="1-1"/>
+<wire x1="50.3252" y1="99.06" x2="40.1652" y2="99.06" width="0" layer="19" extent="1-1"/>
+<wire x1="38.995" y1="53.975" x2="50.425" y2="5.715" width="0" layer="19" extent="1-1"/>
 <wire x1="50.425" y1="5.715" x2="52.965" y2="5.715" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U1_D3">
@@ -372,95 +372,95 @@ design rules under a new name.
 <contactref element="R3" pad="2"/>
 <contactref element="U1" pad="D3"/>
 <contactref element="S2" pad="4"/>
-<wire x1="69.4491" y1="82.4738" x2="69.4491" y2="88.9762" width="0" layer="19" extent="1-1"/>
-<wire x1="69.4491" y1="82.4738" x2="69.7285" y2="74.295" width="0" layer="19" extent="1-1"/>
-<wire x1="69.7285" y1="74.295" x2="65.665" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="69.7308" y1="82.4738" x2="69.7308" y2="88.9762" width="0" layer="19" extent="1-1"/>
+<wire x1="69.7308" y1="82.4738" x2="70.0102" y2="74.295" width="0" layer="19" extent="1-1"/>
+<wire x1="70.0102" y1="74.295" x2="65.665" y2="53.975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U1_D4">
-<contactref element="S1" pad="3"/>
 <contactref element="R1" pad="2"/>
 <contactref element="U1" pad="D4"/>
+<contactref element="S1" pad="3"/>
 <contactref element="S1" pad="4"/>
-<wire x1="61.8291" y1="82.4738" x2="61.8291" y2="88.9762" width="0" layer="19" extent="1-1"/>
-<wire x1="61.8291" y1="82.4738" x2="62.1085" y2="74.295" width="0" layer="19" extent="1-1"/>
-<wire x1="62.1085" y1="74.295" x2="63.125" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="62.1108" y1="82.4738" x2="62.1108" y2="88.9762" width="0" layer="19" extent="1-1"/>
+<wire x1="62.3902" y1="74.295" x2="62.1108" y2="82.4738" width="0" layer="19" extent="1-1"/>
+<wire x1="62.3902" y1="74.295" x2="63.125" y2="53.975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U1_5V">
-<contactref element="S1" pad="1"/>
 <contactref element="S2" pad="1"/>
 <contactref element="S3" pad="1"/>
 <contactref element="S4" pad="2"/>
 <contactref element="S3" pad="2"/>
 <contactref element="S2" pad="2"/>
-<contactref element="S1" pad="2"/>
 <contactref element="U1" pad="5V"/>
+<contactref element="S1" pad="2"/>
 <contactref element="S4" pad="1"/>
-<wire x1="57.3079" y1="82.4738" x2="57.3079" y2="88.9762" width="0" layer="19" extent="1-1"/>
-<wire x1="57.3079" y1="82.4738" x2="64.9279" y2="82.4738" width="0" layer="19" extent="1-1"/>
-<wire x1="64.9279" y1="82.4738" x2="64.9279" y2="88.9762" width="0" layer="19" extent="1-1"/>
-<wire x1="64.9279" y1="82.4738" x2="72.5479" y2="82.4738" width="0" layer="19" extent="1-1"/>
-<wire x1="72.5479" y1="82.4738" x2="72.5479" y2="88.9762" width="0" layer="19" extent="1-1"/>
-<wire x1="72.5479" y1="82.4738" x2="80.1679" y2="82.4738" width="0" layer="19" extent="1-1"/>
-<wire x1="80.1679" y1="88.9762" x2="80.1679" y2="82.4738" width="0" layer="19" extent="1-1"/>
-<wire x1="57.3079" y1="82.4738" x2="47.885" y2="5.715" width="0" layer="19" extent="1-1"/>
+<contactref element="S1" pad="1"/>
+<wire x1="65.2096" y1="82.4738" x2="65.2096" y2="88.9762" width="0" layer="19" extent="1-1"/>
+<wire x1="65.2096" y1="82.4738" x2="57.5896" y2="82.4738" width="0" layer="19" extent="1-1"/>
+<wire x1="57.5896" y1="88.9762" x2="57.5896" y2="82.4738" width="0" layer="19" extent="1-1"/>
+<wire x1="65.2096" y1="82.4738" x2="72.8296" y2="82.4738" width="0" layer="19" extent="1-1"/>
+<wire x1="72.8296" y1="82.4738" x2="72.8296" y2="88.9762" width="0" layer="19" extent="1-1"/>
+<wire x1="72.8296" y1="82.4738" x2="80.4496" y2="82.4738" width="0" layer="19" extent="1-1"/>
+<wire x1="80.4496" y1="88.9762" x2="80.4496" y2="82.4738" width="0" layer="19" extent="1-1"/>
+<wire x1="47.885" y1="5.715" x2="57.5896" y2="82.4738" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U1_D2">
 <contactref element="S3" pad="3"/>
 <contactref element="R4" pad="2"/>
 <contactref element="U1" pad="D2"/>
 <contactref element="S3" pad="4"/>
-<wire x1="77.0691" y1="82.4738" x2="77.0691" y2="88.9762" width="0" layer="19" extent="1-1"/>
-<wire x1="77.0691" y1="82.4738" x2="77.3485" y2="74.295" width="0" layer="19" extent="1-1"/>
-<wire x1="77.3485" y1="74.295" x2="68.205" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="77.3508" y1="82.4738" x2="77.3508" y2="88.9762" width="0" layer="19" extent="1-1"/>
+<wire x1="77.3508" y1="82.4738" x2="77.6302" y2="74.295" width="0" layer="19" extent="1-1"/>
+<wire x1="77.6302" y1="74.295" x2="68.205" y2="53.975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U1_TX">
 <contactref element="S4" pad="3"/>
 <contactref element="R5" pad="2"/>
 <contactref element="U1" pad="TX"/>
 <contactref element="S4" pad="4"/>
-<wire x1="84.6891" y1="82.4738" x2="84.6891" y2="88.9762" width="0" layer="19" extent="1-1"/>
-<wire x1="84.6891" y1="82.4738" x2="84.9685" y2="74.295" width="0" layer="19" extent="1-1"/>
-<wire x1="84.9685" y1="74.295" x2="70.745" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="84.9708" y1="82.4738" x2="84.9708" y2="88.9762" width="0" layer="19" extent="1-1"/>
+<wire x1="84.9708" y1="82.4738" x2="85.2502" y2="74.295" width="0" layer="19" extent="1-1"/>
+<wire x1="85.2502" y1="74.295" x2="70.745" y2="53.975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U1_D12">
 <contactref element="R9" pad="1"/>
 <contactref element="U1" pad="D12"/>
-<wire x1="24.0085" y1="81.915" x2="41.535" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="24.2902" y1="81.915" x2="41.535" y2="53.975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U1_D11">
 <contactref element="R8" pad="1"/>
 <contactref element="U1" pad="D11"/>
-<wire x1="34.1685" y1="81.915" x2="44.075" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="34.4502" y1="81.915" x2="44.075" y2="53.975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U1_D10">
 <contactref element="R7" pad="1"/>
 <contactref element="U1" pad="D10"/>
-<wire x1="44.3285" y1="81.915" x2="46.615" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="44.6102" y1="81.915" x2="46.615" y2="53.975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U1_D9">
 <contactref element="R6" pad="1"/>
 <contactref element="U1" pad="D9"/>
-<wire x1="54.4885" y1="81.915" x2="49.155" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="54.7702" y1="81.915" x2="49.155" y2="53.975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D2_G">
 <contactref element="D2" pad="G"/>
 <contactref element="R6" pad="2"/>
-<wire x1="52.5835" y1="99.06" x2="54.4885" y2="92.075" width="0" layer="19" extent="1-1"/>
+<wire x1="52.8652" y1="99.06" x2="54.7702" y2="92.075" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D3_G">
 <contactref element="D3" pad="G"/>
 <contactref element="R7" pad="2"/>
-<wire x1="42.4235" y1="99.06" x2="44.3285" y2="92.075" width="0" layer="19" extent="1-1"/>
+<wire x1="42.7052" y1="99.06" x2="44.6102" y2="92.075" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D4_G">
 <contactref element="D4" pad="G"/>
 <contactref element="R8" pad="2"/>
-<wire x1="32.2635" y1="99.06" x2="34.1685" y2="92.075" width="0" layer="19" extent="1-1"/>
+<wire x1="32.5452" y1="99.06" x2="34.4502" y2="92.075" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D5_G">
 <contactref element="D5" pad="G"/>
 <contactref element="R9" pad="2"/>
-<wire x1="22.1035" y1="99.06" x2="24.0085" y2="92.075" width="0" layer="19" extent="1-1"/>
+<wire x1="22.3852" y1="99.06" x2="24.2902" y2="92.075" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
