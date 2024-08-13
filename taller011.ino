@@ -54,42 +54,49 @@ void loop()
       	cont = 0;
       	//
      	Serial.println(cont);
+      
       	digitalWrite(buttonAddTwo, LOW);
      	digitalWrite(buttonAddOne, LOW);
      	digitalWrite(buttonReset,LOW);
       	digitalWrite(buttonNegative,LOW);
+      
      	digitalWrite(ledRed, LOW);
+      	
+      	digitalWrite(ledRGBB3, LOW);
+        digitalWrite(ledRGBB2, LOW);
+        digitalWrite(ledRGBB1, LOW);
+        digitalWrite(ledRGBB0, LOW);
       
   	}if (stateAddTwo == HIGH){
   		cont = cont + 2;
       	Serial.println(cont);
       	digitalWrite(buttonAddTwo, LOW);
-     	digitalWrite(buttonAddOne, LOW);
+     	//digitalWrite(buttonAddOne, LOW);
       
     }if (stateAddOne == HIGH){
       	cont = cont +1;
       	Serial.println(cont);
       	digitalWrite(buttonAddOne, LOW);
-  	    digitalWrite(buttonAddTwo, LOW);
+  	    //digitalWrite(buttonAddTwo, LOW);
     }
-  	delay(150);
+  	delay(180);
 	decimalABinario(cont);
 }
 //Funcion cambio de base 10->2
-int* decimalABinario(int num){
+void decimalABinario(int num){
   	if (num > 15){
     	// que encienda el led rojo
       	digitalWrite(ledRed, HIGH);
       
-        digitalWrite(buttonAddTwo, LOW);
-        digitalWrite(buttonAddOne, LOW);
+        //digitalWrite(buttonAddTwo, LOW);
+        //digitalWrite(buttonAddOne, LOW);
       
       	digitalWrite(ledRGBB3, LOW);
         digitalWrite(ledRGBB2, LOW);
         digitalWrite(ledRGBB1, LOW);
         digitalWrite(ledRGBB0, LOW);
       
-      	return arregloBinario; //regresa el arreglo sin nada ya que la funcion debe retornar un arreglo
+      	//return arregloBinario; //regresa el arreglo sin nada ya que la funcion debe retornar un arreglo
     }else{
       for (int i = 3; i >= 0; i--){ //contador incia en 3 por 4bits-1 por inciar en 0
       	arregloBinario[i] = num % 2; //modulo en la posición i
@@ -97,7 +104,7 @@ int* decimalABinario(int num){
       }
     }
  	mostrarBinario(arregloBinario);
-  	return arregloBinario; //Retorno el arreglo
+  	//return arregloBinario; //Retorno el arreglo
 }
 //funcion que enciende los rgb
 void mostrarBinario(const int* arregloBinario){ //no retorna nada pero recibe un arreglo tipo int
