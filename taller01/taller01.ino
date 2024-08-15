@@ -1,9 +1,9 @@
 // C++ code
 //
-const int buttonAddTwo = 4;  //Pulsadores
-const int buttonAddOne = 3;
-const int buttonReset = 2;
-const int buttonNegative = 1;
+const int buttonAddTwo = 5;  //Pulsadores
+const int buttonAddOne = 4;
+const int buttonReset = 3;
+const int buttonNegative = 2;
 
 const int ledRGBB0 = 9;  //Led RGB para bits
 const int ledRGBB1 = 10;
@@ -49,20 +49,30 @@ void loop() {
   stateReset = digitalRead(buttonReset);
   stateNegative = digitalRead(buttonNegative);
 
+  Serial.println(cont);
+  Serial.println(complement);
+
+  if (cont == -1) {
+    delay(200);
+  }
   if (cont > 15) {
     // que encienda el led rojo
     digitalWrite(ledRed, HIGH);
 
-    //digitalWrite(buttonAddTwo, LOW);
-    //digitalWrite(buttonAddOne, LOW);
+    digitalWrite(buttonAddTwo, LOW);
+    digitalWrite(buttonAddOne, LOW);
 
     digitalWrite(ledRGBB3, LOW);
     digitalWrite(ledRGBB2, LOW);
     digitalWrite(ledRGBB1, LOW);
     digitalWrite(ledRGBB0, LOW);
+    cont = -1;
+    complement = 0;
+    delay(200);
   }
   if (stateReset == HIGH) {
     cont = 0;
+    complement = 0;
     //
     Serial.println(cont);
 
@@ -77,25 +87,25 @@ void loop() {
     digitalWrite(ledRGBB2, LOW);
     digitalWrite(ledRGBB1, LOW);
     digitalWrite(ledRGBB0, LOW);
+    delay(200);
   }
-  if (stateAddTwo == HIGH) {
+  if (stateAddTwo == HIGH && cont != -1) {
     cont = cont + 2;
-    Serial.println(cont);
     digitalWrite(buttonAddTwo, LOW);
     //digitalWrite(buttonAddOne, LOW);
+    delay(200);
   }
-  if (stateAddOne == HIGH) {
+  if (stateAddOne == HIGH && cont != -1) {
     cont = cont + 1;
-    Serial.println(cont);
-    digitalWrite(buttonAddOne, LOW);
+    digitalWrite(buttonAddOne, LOW && cont != -1);
     //digitalWrite(buttonAddTwo, LOW);
+    delay(200);
   }
-  if (stateNegative == HIGH) {
+  if (stateNegative == HIGH && cont != -1) {
     complement = 1;
     delay(200);
   }
-  if (complement == 1) {
-
+  if (complement == 1 && cont != -1) {
     int cont2 = cont;
 
     for (int i = 3; i >= 0; i--) {    //contador incia en 3 por 4bits-1 por inciar en 0
@@ -106,10 +116,11 @@ void loop() {
     mostrarBinario(invertirCerosYUnos(arregloBinario));
     delay(200);
   }
-  if (complement == 0) {
+  if (complement == 0 && cont != -1) {
     decimalABinario(cont);
     delay(200);
   }
+  delay(200);
 }
 //Funcion cambio de base 10->2
 void decimalABinario(int num) {
@@ -117,8 +128,8 @@ void decimalABinario(int num) {
     // que encienda el led rojo
     digitalWrite(ledRed, HIGH);
 
-    //digitalWrite(buttonAddTwo, LOW);
-    //digitalWrite(buttonAddOne, LOW);
+    digitalWrite(buttonAddTwo, LOW);
+    digitalWrite(buttonAddOne, LOW);
 
     digitalWrite(ledRGBB3, LOW);
     digitalWrite(ledRGBB2, LOW);
@@ -142,13 +153,6 @@ void mostrarBinario(const int* arregloBinario) {  //no retorna nada pero recibe 
   digitalWrite(ledRGBB1, LOW);
   digitalWrite(ledRGBB0, LOW);
 
-  /*if (stateNegative == HIGH){
-      	Serial.println(stateNegative);
-      	mostrarBinario(invertirCerosYUnos(arregloBinario));
-      	digitalWrite(buttonNegative, LOW);
-      	Serial.println(stateNegative);
-      	
-    }*/
   // Controla el LED 1
   if (arregloBinario[0] == 1) {
     digitalWrite(ledRGBB3, HIGH);
